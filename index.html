@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <title>RELL HOU DESIGN</title>
-    <style>
-        body {
-            background:
-    url(path_to_doggy_image.jpeg)
-    no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+<head>
+  <title>RELL 'HOU DESIGN</title>
+  <style>
+    body {
+      background: url(path_to_doggy_image.jpg) no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
 
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
 
-
+    .center-text {
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="center-text">
+    RELL 'HOU DESIGN
+  </div>
+</body>
 </html>
